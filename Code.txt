@@ -15,8 +15,7 @@ struct node
 };
 
 // function check for correct solution
-int check(node* nodeArr, const int count, string s1,
-							string s2, string s3)
+int check(node* nodeArr, const int count, string s1,string s2, string s3)
 {
 	int val1 = 0, val2 = 0, val3 = 0, m = 1, j, i;
 
